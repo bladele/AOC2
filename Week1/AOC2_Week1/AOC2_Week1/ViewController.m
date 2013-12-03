@@ -16,9 +16,25 @@
 
 - (void)viewDidLoad
 {
+    //create a bike & set price
+    streetBike *grom = (streetBike*)[BikeFactory createNewBike:STREET];
+    [grom setTotalCost:3000];
+    [grom setDurrationOfLoan:36];
+    
+    if (grom != nil) {
+        NSArray *gromSpecks = [[NSArray alloc] initWithObjects:@"street", @"engine size", nil];
+        [grom setEngineSize:gromSpecks];
+        
+        NSLog(@"You created a bike with the specks %@", [grom engineSize]);
+        NSLog(@"%@", grom.features);
+        
+        [grom calculateMonthlyPayment];
+    }
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
 
 - (void)didReceiveMemoryWarning
 {

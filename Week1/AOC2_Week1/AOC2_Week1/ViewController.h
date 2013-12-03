@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BikeFactory.h"
+
+@class TextClass;
 
 @interface ViewController : UIViewController
+
+
 
 @end

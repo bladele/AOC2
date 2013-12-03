@@ -21,6 +21,11 @@
 		B6A4430E184530C50021A37A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A442F0184530C40021A37A /* UIKit.framework */; };
 		B6A44316184530C50021A37A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A44314184530C50021A37A /* InfoPlist.strings */; };
 		B6A44318184530C50021A37A /* AOC2_Week1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A44317184530C50021A37A /* AOC2_Week1Tests.m */; };
+		B6F3FFA1184D36CE00A27AC3 /* BikeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FFA0184D36CE00A27AC3 /* BikeFactory.m */; };
+		B6F3FFAD184D394200A27AC3 /* baseBike.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FFAC184D394200A27AC3 /* baseBike.m */; };
+		B6F3FFB0184D397500A27AC3 /* streetBike.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FFAF184D397500A27AC3 /* streetBike.m */; };
+		B6F3FFB3184D3A0300A27AC3 /* offroadBike.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FFB2184D3A0300A27AC3 /* offroadBike.m */; };
+		B6F3FFB6184D3A8400A27AC3 /* scooterBike.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FFB5184D3A8400A27AC3 /* scooterBike.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		B6A44313184530C50021A37A /* AOC2_Week1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOC2_Week1Tests-Info.plist"; sourceTree = "<group>"; };
 		B6A44315184530C50021A37A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6A44317184530C50021A37A /* AOC2_Week1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOC2_Week1Tests.m; sourceTree = "<group>"; };
+		B6F3FF9F184D36CE00A27AC3 /* BikeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeFactory.h; sourceTree = "<group>"; };
+		B6F3FFA0184D36CE00A27AC3 /* BikeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeFactory.m; sourceTree = "<group>"; };
+		B6F3FFAB184D394200A27AC3 /* baseBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseBike.h; sourceTree = "<group>"; };
+		B6F3FFAC184D394200A27AC3 /* baseBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseBike.m; sourceTree = "<group>"; };
+		B6F3FFAE184D397500A27AC3 /* streetBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streetBike.h; sourceTree = "<group>"; };
+		B6F3FFAF184D397500A27AC3 /* streetBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = streetBike.m; sourceTree = "<group>"; };
+		B6F3FFB1184D3A0300A27AC3 /* offroadBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offroadBike.h; sourceTree = "<group>"; };
+		B6F3FFB2184D3A0300A27AC3 /* offroadBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offroadBike.m; sourceTree = "<group>"; };
+		B6F3FFB4184D3A8400A27AC3 /* scooterBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scooterBike.h; sourceTree = "<group>"; };
+		B6F3FFB5184D3A8400A27AC3 /* scooterBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scooterBike.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				B6A44302184530C40021A37A /* ViewController.m */,
 				B6A44304184530C40021A37A /* Images.xcassets */,
 				B6A442F3184530C40021A37A /* Supporting Files */,
+				B6F3FF9F184D36CE00A27AC3 /* BikeFactory.h */,
+				B6F3FFA0184D36CE00A27AC3 /* BikeFactory.m */,
+				B6F3FFAB184D394200A27AC3 /* baseBike.h */,
+				B6F3FFAC184D394200A27AC3 /* baseBike.m */,
+				B6F3FFAE184D397500A27AC3 /* streetBike.h */,
+				B6F3FFAF184D397500A27AC3 /* streetBike.m */,
+				B6F3FFB1184D3A0300A27AC3 /* offroadBike.h */,
+				B6F3FFB2184D3A0300A27AC3 /* offroadBike.m */,
+				B6F3FFB4184D3A8400A27AC3 /* scooterBike.h */,
+				B6F3FFB5184D3A8400A27AC3 /* scooterBike.m */,
 			);
 			path = AOC2_Week1;
 			sourceTree = "<group>";
@@ -250,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A44303184530C40021A37A /* ViewController.m in Sources */,
+				B6F3FFB3184D3A0300A27AC3 /* offroadBike.m in Sources */,
+				B6F3FFB6184D3A8400A27AC3 /* scooterBike.m in Sources */,
+				B6F3FFB0184D397500A27AC3 /* streetBike.m in Sources */,
 				B6A442FD184530C40021A37A /* AppDelegate.m in Sources */,
 				B6A442F9184530C40021A37A /* main.m in Sources */,
+				B6F3FFAD184D394200A27AC3 /* baseBike.m in Sources */,
+				B6F3FFA1184D36CE00A27AC3 /* BikeFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +490,7 @@
 				B6A4431D184530C50021A37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6A4431E184530C50021A37A /* Build configuration list for PBXNativeTarget "AOC2_Week1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +499,7 @@
 				B6A44320184530C50021A37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
