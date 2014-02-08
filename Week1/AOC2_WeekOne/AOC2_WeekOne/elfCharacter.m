@@ -19,7 +19,7 @@
     if (self != nil)
     {
         //setting data member to defaults
-        [self setDamagePerSecond:1];
+        [self setDamagePerSecond:3];
         [self setWeaponType:BOW];
         [self setWeaponName:@""];
         NSLog(@"You created an elf character!");

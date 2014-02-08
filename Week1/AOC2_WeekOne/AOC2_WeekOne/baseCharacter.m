@@ -19,7 +19,7 @@
     self = [super init];
     if (self != nil)
     {
-        [self setDamagePerSecond:0];
+        [self setDamagePerSecond:2];
         [self setCharacterName:nil];
         [self setGear:nil];
     }

@@ -10,5 +10,15 @@
 #import "CharacterFactory.h"
 
 @interface ViewController : UIViewController
+{
+    UILabel *humanLabel;
+    UILabel *humanLabelTwo;
+    UILabel *elfLabel;
+    UILabel *elfLabelTwo;
+    UILabel *morlockLabel;
+    UILabel *morlockLabelTwo;
+    
+}
+
 
 @end
