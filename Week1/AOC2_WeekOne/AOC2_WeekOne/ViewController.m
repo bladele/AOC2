@@ -83,7 +83,7 @@
         humanLabel.textColor = [UIColor blueColor];
         humanLabel.textAlignment = NSTextAlignmentCenter;
         humanLabel.backgroundColor =[UIColor yellowColor];
-        humanLabel.text = [NSString stringWithFormat:@"'%@' is human with %@ .", [heroGuy characterName], [heroGuy gear]];
+        humanLabel.text = [NSString stringWithFormat:@"%@ is human with %@ .", [heroGuy characterName], [heroGuy gear]];
     }
     [self.view addSubview:humanLabel];
     
@@ -94,7 +94,7 @@
         humanLabelTwo.textColor = [UIColor blueColor];
         humanLabelTwo.textAlignment = NSTextAlignmentCenter;
         humanLabelTwo.backgroundColor =[UIColor yellowColor];
-        humanLabelTwo.text = [NSString stringWithFormat:@"Human Character '%@' deals %i damage per second.", [heroGuy characterName], [heroGuy damagePerSecond]];
+        humanLabelTwo.text = [NSString stringWithFormat:@"%@'s skill is %d and  deals %i damage per second.", [heroGuy characterName], [heroGuy skill], [heroGuy damagePerSecond]];
     }
     [self.view addSubview:humanLabelTwo];
     
@@ -106,7 +106,7 @@
         elfLabel.textColor = [UIColor blackColor];
         elfLabel.textAlignment = NSTextAlignmentCenter;
         elfLabel.backgroundColor = [UIColor greenColor];
-        elfLabel.text = [NSString stringWithFormat:@"'%@' is elven with %@ .", [elfMan characterName], [elfMan gear]];
+        elfLabel.text = [NSString stringWithFormat:@"%@ is elven with %@ .", [elfMan characterName], [elfMan gear]];
         
     }
     [self.view addSubview:elfLabel];
@@ -118,7 +118,7 @@
         elfLabelTwo.textColor = [UIColor blackColor];
         elfLabelTwo.textAlignment = NSTextAlignmentCenter;
         elfLabelTwo.backgroundColor = [UIColor greenColor];
-        elfLabelTwo.text = [NSString stringWithFormat:@"Elf Character '%@' deals %i damage per second.", [elfMan characterName], [elfMan totalWeaponDamage]];
+        elfLabelTwo.text = [NSString stringWithFormat:@"%@'s weapon is %@ and deals %i damage per second.", [elfMan characterName], [elfMan weaponName], [elfMan totalWeaponDamage]];
         
     }
     [self.view addSubview:elfLabelTwo];
@@ -131,7 +131,7 @@
         morlockLabel.textColor = [UIColor whiteColor];
         morlockLabel.textAlignment = NSTextAlignmentCenter;
         morlockLabel.backgroundColor = [UIColor redColor];
-        morlockLabel.text = [NSString stringWithFormat:@"'%@' is morlock with %@ .", [beardedOne characterName], [beardedOne gear]];
+        morlockLabel.text = [NSString stringWithFormat:@"%@ is a morlock with %@ .", [beardedOne characterName], [beardedOne gear]];
     }
     [self.view addSubview:morlockLabel];
     
@@ -142,7 +142,7 @@
         morlockLabelTwo.textColor = [UIColor whiteColor];
         morlockLabelTwo.backgroundColor = [UIColor redColor];
         morlockLabelTwo.textAlignment = NSTextAlignmentCenter;
-        morlockLabelTwo.text = [NSString stringWithFormat:@"Morlock character '%@' deals %i damage per second.", [beardedOne characterName], [beardedOne totalCasterDamage]];
+        morlockLabelTwo.text = [NSString stringWithFormat:@"%@'s magic word is %@ and deals %i damage per second.", [beardedOne characterName], [beardedOne magicWords], [beardedOne totalCasterDamage]];
     }
     [self.view addSubview:morlockLabelTwo];
     
