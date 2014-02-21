@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B68BC19F18AD375200BBF33E /* IMG_1699.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68BC19E18AD375200BBF33E /* IMG_1699.jpg */; };
+		B68BC1A118AD37AF00BBF33E /* human07-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68BC1A018AD37AF00BBF33E /* human07-large.jpg */; };
+		B68BC1A518AD38BA00BBF33E /* blood_elf_hunter_art-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68BC1A418AD38BA00BBF33E /* blood_elf_hunter_art-wide.jpg */; };
+		B68BC1A718AD3F4700BBF33E /* morlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68BC1A618AD3F4700BBF33E /* morlock.jpg */; };
 		B6D954B7184F8FE4007C9A87 /* CharacterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D954B6184F8FE4007C9A87 /* CharacterFactory.m */; };
 		B6D954BA184F9015007C9A87 /* baseCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D954B9184F9015007C9A87 /* baseCharacter.m */; };
 		B6D954BD18500770007C9A87 /* humanCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D954BC18500770007C9A87 /* humanCharacter.m */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B68BC19E18AD375200BBF33E /* IMG_1699.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1699.jpg; sourceTree = "<group>"; };
+		B68BC1A018AD37AF00BBF33E /* human07-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "human07-large.jpg"; sourceTree = "<group>"; };
+		B68BC1A418AD38BA00BBF33E /* blood_elf_hunter_art-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blood_elf_hunter_art-wide.jpg"; sourceTree = "<group>"; };
+		B68BC1A618AD3F4700BBF33E /* morlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morlock.jpg; sourceTree = "<group>"; };
 		B6D954B5184F8FE4007C9A87 /* CharacterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterFactory.h; sourceTree = "<group>"; };
 		B6D954B6184F8FE4007C9A87 /* CharacterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterFactory.m; sourceTree = "<group>"; };
 		B6D954B8184F9015007C9A87 /* baseCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCharacter.h; sourceTree = "<group>"; };
@@ -144,6 +152,10 @@
 				B6D954BF18500792007C9A87 /* elfCharacter.m */,
 				B6D954C4185012C6007C9A87 /* morlockCharacter.h */,
 				B6D954C5185012C6007C9A87 /* morlockCharacter.m */,
+				B68BC19E18AD375200BBF33E /* IMG_1699.jpg */,
+				B68BC1A018AD37AF00BBF33E /* human07-large.jpg */,
+				B68BC1A618AD3F4700BBF33E /* morlock.jpg */,
+				B68BC1A418AD38BA00BBF33E /* blood_elf_hunter_art-wide.jpg */,
 			);
 			path = AOC2_WeekOne;
 			sourceTree = "<group>";
@@ -253,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68BC19F18AD375200BBF33E /* IMG_1699.jpg in Resources */,
+				B68BC1A518AD38BA00BBF33E /* blood_elf_hunter_art-wide.jpg in Resources */,
+				B68BC1A718AD3F4700BBF33E /* morlock.jpg in Resources */,
 				B6F3FFDC184D8CB700A27AC3 /* Images.xcassets in Resources */,
 				B6F3FFCE184D8CB700A27AC3 /* InfoPlist.strings in Resources */,
 				B6F3FFD7184D8CB700A27AC3 /* Main.storyboard in Resources */,
+				B68BC1A118AD37AF00BBF33E /* human07-large.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
